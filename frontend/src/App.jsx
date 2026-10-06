@@ -11,6 +11,8 @@ import {
   WalletCards
 } from "lucide-react"
 
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"
+console.log("API URL:", API_URL)
 function App() {
   const fileInputRef = useRef(null)
 
@@ -50,7 +52,7 @@ function App() {
 
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/api/tenders/upload",
+       `${API_URL}/api/tenders/upload`,
       {
         method: "POST",
         body: formData,
@@ -125,7 +127,7 @@ function App() {
 
   try {
     const response = await fetch(
-      "http://127.0.0.1:8000/api/tenders/ask",
+       `${API_URL}/api/tenders/ask`,
       {
         method: "POST",
         headers: {
