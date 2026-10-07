@@ -8,7 +8,9 @@ https://tenderlensai.vercel.app
 
 ## 📌 About
 
-TenderLens AI helps users quickly understand complex tender and RFP documents using AI-powered document analysis.
+## 📌 About
+
+TenderLens AI is an AI-powered tender and RFP analysis platform that transforms lengthy procurement documents into structured, actionable insights. Users can upload a tender PDF, automatically extract key requirements and deadlines, and ask questions about the document using natural language.
 
 Upload a tender PDF and the platform extracts important information such as:
 
